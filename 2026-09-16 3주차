@@ -1,0 +1,31 @@
+# 3주차 Next.js
+
+## Folder & File Conventions
+
+- `(folder)` : URL에 영향 없이 파일 정리
+- `_folder` : 라우팅에서 제외되는 비공개 폴더
+- `page.js` : 실제 페이지로 접근하기 위해 필요
+
+---
+
+## Routing
+
+- `@folder` : 여러 UI를 동시에 보여주는 슬롯
+- **Intercepting Route** : 현재 화면에서 다른 경로를 모달처럼 표시
+
+---
+
+## 주요 파일
+
+- `layout.js` : 공통 레이아웃
+- `template.js` : 이동 시 새로 생성
+- `loading.js` : 로딩 화면
+- `error.js` : 에러 화면
+- `not-found.js` : 404 화면
+
+---
+
+## Open Graph
+
+SNS에 링크를 공유할 때  
+제목, 이미지 등의 **미리보기**를 
