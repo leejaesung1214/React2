@@ -96,3 +96,14 @@ SNS에 링크를 공유할 때
 - `[slug]`를 이용하여 게시글 같은 동적 라우팅 구현
 - `params`를 통해 동적 URL의 값을 가져올 수 있음
 - `searchParams`를 사용하여 검색, 필터 등의 URL 값 처리
+
+
+-----------
+
+# 5주차 Next.js
+
+- React와 Next.js의 라우팅 방식 차이 학습
+- `App Router`를 이용한 파일 기반 라우팅 구조 이해
+- `Server Rendering`과 `Prefetching`을 통한 페이지 로딩 최적화
+- `Streaming`으로 준비된 콘텐츠부터 빠르게 표시
+- `<Link>`와 `loading.tsx`를 활용한 자연스러운 페이지 전환
