@@ -107,3 +107,16 @@ SNS에 링크를 공유할 때
 - `Server Rendering`과 `Prefetching`을 통한 페이지 로딩 최적화
 - `Streaming`으로 준비된 콘텐츠부터 빠르게 표시
 - `<Link>`와 `loading.tsx`를 활용한 자연스러운 페이지 전환
+
+-----------
+
+# 6주차 Next.js
+
+- `async` : 비동기 데이터 처리 및 API 연동에 사용
+- `generateStaticParams` : 동적 페이지를 빌드 시 미리 생성
+- `loading.tsx` : 페이지 이동 중 로딩 화면 표시
+- `useLinkStatus` : 페이지 이동 중 로딩 상태 확인
+- `prefetch={false}` : 불필요한 프리페칭 방지
+- `Hydration` : 서버 HTML에 JavaScript를 연결해 상호작용 가능
+
+---
