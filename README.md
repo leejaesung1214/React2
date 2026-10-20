@@ -119,4 +119,15 @@ SNS에 링크를 공유할 때
 - `prefetch={false}` : 불필요한 프리페칭 방지
 - `Hydration` : 서버 HTML에 JavaScript를 연결해 상호작용 가능
 
+-----------
+
+# 7주차 Next.js
+
+- `Server Component` : 서버에서 데이터 처리 및 보안 정보 관리
+- `Client Component` : 상태 관리, 이벤트 처리 및 브라우저 기능 사용
+- `Optimistic Update` : 서버 응답 전에 UI를 먼저 변경하고 오류 시 복구
+- `RSC Payload` : 서버 컴포넌트의 렌더링 결과를 클라이언트에 전달
+- `Hydration` : 정적 HTML에 JavaScript를 연결해 상호작용 가능하게 처리
+- `"use client"` : 클라이언트 컴포넌트의 경계를 지정하는 지시문
+
 ---
