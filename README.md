@@ -131,3 +131,15 @@ SNS에 링크를 공유할 때
 - `"use client"` : 클라이언트 컴포넌트의 경계를 지정하는 지시문
 
 ---
+
+
+# 9주차 Next.js
+
+- `Server Component`에서 `Client Component`로 props를 이용해 데이터 전달 가능
+- `getPost` : 게시글 ID를 이용해 데이터 조회
+- `params` : 동적 URL에서 게시글 ID를 가져오는 역할
+- `await` : 비동기 데이터를 처리하고 게시글 정보 불러오기
+- `<LikeButton likes={post.likes} />` : 좋아요 수를 클라이언트 컴포넌트에 전달
+- `"use client"` : 클라이언트 컴포넌트를 지정하여 상태 관리 및 이벤트 처리 가능
+
+---
