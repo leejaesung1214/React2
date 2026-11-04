@@ -132,7 +132,6 @@ SNS에 링크를 공유할 때
 
 ---
 
-
 # 9주차 Next.js
 
 - `Server Component`에서 `Client Component`로 props를 이용해 데이터 전달 가능
@@ -143,3 +142,14 @@ SNS에 링크를 공유할 때
 - `"use client"` : 클라이언트 컴포넌트를 지정하여 상태 관리 및 이벤트 처리 가능
 
 ---
+
+# 10주차 Next.js
+
+- `Interleaving` : Server Component와 Client Component를 섞어서 사용하는 패턴
+- `Server Component` : 서버에서 데이터를 가져오고 렌더링한 UI를 전달
+- `Client Component` : state를 이용해 모달 표시 및 사용자 이벤트 처리
+- `children` : Client Component 내부에 Server Component를 중첩하여 전달
+- `RSC Payload` : 서버에서 렌더링된 컴포넌트 정보와 렌더링 위치에 대한 참조 포함
+
+---
+
