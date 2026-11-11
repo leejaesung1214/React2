@@ -153,3 +153,14 @@ SNS에 링크를 공유할 때
 
 ---
 
+# 11주차 Next.js
+
+- `Context Provider` : 하위 컴포넌트에 상태와 함수를 공유하는 기능
+- `createContext` : 컴포넌트 간 데이터를 공유하기 위한 Context 객체 생성
+- `ThemeContext.Provider` : 현재 theme 상태와 toggleTheme 함수를 하위 컴포넌트에 전달
+- `toggleTheme` : 삼항 연산자를 이용해 라이트 모드와 다크 모드 전환
+- `useContext` : Context에서 theme과 toggleTheme을 가져와 사용
+- `data-theme` : CSS 속성 선택자를 이용해 테마별 배경색과 글자색 적용
+
+---
+
